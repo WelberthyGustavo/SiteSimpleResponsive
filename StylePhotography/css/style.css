@@ -1,0 +1,369 @@
+/*Cofiguration's style general*/
+*{
+    margin: 0;
+    padding:0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h2, h3{
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*header configuration's*/
+header h1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #000000;
+    background-color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 32px;
+    text-decoration: none;
+    padding:5px 0 5px;
+}
+
+
+nav ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+
+nav ul li{
+    text-align: center;
+    width: 100%;
+    border-top: 1px solid #ffffff;
+}
+
+nav ul li a:hover{
+    background-color: #ffffff;
+    color: black;
+}
+
+
+nav ul li a{
+    display: inline-block;
+    padding: 10px 0;
+    width: 100%;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #000000;
+    font-weight: 800;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*Top configuration's*/
+.topo{
+    position: relative;
+    justify-content: center;
+    display: flex;
+}
+  
+#imagetopo{
+    width: 100%;
+    height: 65%;
+    position: relative;
+    display: inline-block;
+    flex-direction: row;
+    justify-content: center;
+    filter: brightness(45%);
+}
+
+  
+#texto{
+    color: #ffffff;
+    position: absolute;
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+    justify-content: center;
+    padding-top: 30%;
+}
+
+
+/*Sobre configuration's*/
+
+.sobre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#sobre h2{
+    text-align: center;
+    padding: 50px 0 30px;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+video{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 80%;
+    border: none;
+    justify-content: center;
+    align-items: center;
+}
+#sobre h3{
+    display: flex;
+    flex-direction: column;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #000000;
+    text-align: center;
+    font-size: 25px;
+    margin: 20px 30px 20px 30px;
+
+}
+
+p{
+    display: flex;
+    flex-direction: column;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #000000;
+    text-align: center;
+    margin: 20px 30px 20px 30px;
+    font-size: large;
+}
+
+/*Fotos configuration's*/
+
+.fotos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fotos h2{
+    padding: 50px 0 50px;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.fotos img{
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.fotos img:hover{
+    -moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+
+/*Serviços configuration's*/
+.serviços h2{
+    padding: 50px 0 30px;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.serviços{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.serviços img{
+    height: auto;
+    width: 100%;
+}
+
+.serviços h3{
+    font-family:Arial, Helvetica, sans-serif;
+    color: #000000;
+    text-align: center;
+    font-size: 25px;
+    margin: 20px 30px 20px 30px;
+}
+
+.serviços p{
+    font-family:Arial, Helvetica, sans-serif;
+    color: #000000;
+    text-align: center;
+    margin: 0px 30px 50px 30px;
+    font-size: large;
+}
+
+/*Contato configuration's*/
+#contato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f3f0c9;
+}
+
+#contato h2{
+    padding: 50px 0 30px;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.contato img{
+    height: 200px;
+    width: auto;
+    display: inline-block;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.contato{
+    display: inline-block;
+    flex-direction: row;
+}
+
+.coluna{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px 0 10px;
+}
+
+.coluna h3{
+    font-family:Arial, Helvetica, sans-serif;
+    color: #000000;
+    text-align: center;
+    font-size: 18px;
+    padding:15px 0  30px;
+}
+
+.coluna a{
+    font-family:Arial, Helvetica, sans-serif;
+    color: #000000;
+    text-align: center;
+    justify-content: center;
+    font-size: 8;
+    text-decoration: none;
+    padding:0px 0  40px;
+}
+
+/*Contato configuration's*/
+
+footer .ini{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.ini{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(36, 36, 36);
+}
+
+.ini p{
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+footer .end{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.end{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000000;
+}
+
+.end p{
+    display: inline;
+    align-items: center;
+    color: white;
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.end p a{
+    text-decoration: none;
+    color: turquoise;
+}
+
+@media screen and (min-width: 768px){
+    nav{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+     
+    nav ul{
+        flex-direction: row;
+        width: 100%;
+    }
+
+    header{
+        height: auto;
+        justify-content: center;
+    }
+
+    .sobre{
+        flex-direction: row;
+    }
+
+    video{
+        justify-content: center;
+        height: auto;
+        width: 400px;
+        padding-left: 10%;
+    }
+
+    .sobre div{
+        flex-direction: row;
+        justify-content: center;
+        margin: 0 10px 0 10px;
+    }
+
+    .contato img{
+        height: 200px;
+        width: auto;
+        justify-content: center;
+        padding-bottom: 50px;
+    }
+
+    .serviços img{
+        height: auto;
+        width: 500px;
+    }
+    
+    .contato img{
+        height: 200px;
+        width: auto;
+        display: flex;
+        justify-content: center;
+    
+    }
+    .contato{
+        display: flex;
+        flex-direction: row;
+    }
+
+    #imagetopo{
+        width: 100%;
+        height: auto;
+
+
+    
+
+}
